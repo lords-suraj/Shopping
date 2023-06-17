@@ -1,0 +1,142 @@
+header{
+    position: sticky;
+}
+
+
+.navbar{
+  overflow: hidden !important;
+  position: sticky;
+  top: 0%;
+
+    background-color:gray;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.navbar a{
+    color:white !important;
+}
+
+.navbar a:hover{
+    color:black !important;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li a{
+    text-decoration: none !important;
+}
+a{
+    text-decoration: none;
+}
+.img-responsive{
+    width: 100%;
+}
+.slii{
+    height: 80vh;
+}
+.shopki{
+
+    height: 360px;
+    width: 280px;
+    border-radius:10px;
+    border: 4px solid black ;    
+}
+
+.shopki:hover{
+    border: 4px solid black;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 1s;
+    transform:scale(1.05);
+}
+
+.txt{
+    font-size:20px;
+    font-style: bold;
+    font-weight: bold;
+    color:black;
+    
+}
+.txt1{
+    font-size: 18px;
+    color: gray;
+    text-decoration-line: line-through;
+}
+.price{
+    text-align: center;
+}
+.product{
+text-align: center !important;
+font-size: 15px;    
+}
+.bttn{
+    margin-left: 30%;
+}
+.card-body1{
+    position: relative;
+    width: 50%;
+
+}
+.shopkii{
+    height: 450px;
+    width: 620px;
+    border: 2px solid lime;
+    border-radius: 10px;
+
+}
+
+.shopkii:hover{
+    transition-property: transform;
+    transition-duration: 1.05s;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(61, 235, 13, 0.2);
+    -webkit-box-shadow: 0px 0px 10px rgba(24, 247, 16, 0.2);
+
+}
+.card-body1  .btn {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 7px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 8%;
+    width: 40%;
+   
+
+  }
+  .btn:hover{
+    background-color: black;
+  }
+ .btn:active{
+    background-color: black;
+  }
+
+footer{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+text-decoration: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+
+  }
